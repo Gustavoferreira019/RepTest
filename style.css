@@ -411,6 +411,10 @@ body {
   align-items: center;
 }
 
+.img-card {
+  width: 535px;
+}
+
 .p-bf {
   display: inline;
   margin: 0;
