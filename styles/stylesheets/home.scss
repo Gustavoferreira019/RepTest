@@ -9,12 +9,12 @@ $white: #ffffff;
 $font: "Rubik", sans-serif;
 //
 
-body{
+body {
     background-color: $bg-nav;
     position: relative;
 }
 
-.button-zap{
+.button-zap {
     position: fixed;
     right: 120px;
     bottom: 50px;
@@ -27,13 +27,13 @@ body{
     box-sizing: border-box;
 }
 
-.float-btn{
+.float-btn {
     color: white;
     font-size: 50px;
 }
 
 
-.container-qm-sms-title{
+.container-qm-sms-title {
     font-family: $font;
     color: $letter-color;
     font-size: 46px;
@@ -64,7 +64,7 @@ body{
     color: $white;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: #8a7034;
 }
 
@@ -78,8 +78,8 @@ body{
     padding: 0;
 }
 
-.container-home{
-    position:absolute;
+.container-home {
+    position: absolute;
     z-index: -1;
     top: 0;
 }
@@ -92,15 +92,15 @@ body{
 }
 
 .firm-container {
-    padding:0;
+    padding: 0;
     margin-top: 850px;
     margin-right: 0;
     background-color: $bg-nav;
     height: 898px;
-    
+
 }
 
-.presentation-container{
+.presentation-container {
     width: 1400px;
 }
 
@@ -158,6 +158,7 @@ body{
     align-items: center;
     margin-top: 110px;
 }
+
 //
 .qmfooter-title {
     position: relative;
@@ -168,11 +169,11 @@ body{
     font-family: $font;
 }
 
-.container-title-qm{
+.container-title-qm {
     margin-top: -150px;
 }
 
-.contain-present{
+.contain-present {
     margin-top: 100px;
 }
 
@@ -181,10 +182,10 @@ body{
     content: '';
     position: absolute;
     top: 50%;
-    width:20%;
+    width: 20%;
     height: 2px;
-    background-color: $letter-color; 
-    transition: width 2.5s ease; 
+    background-color: $letter-color;
+    transition: width 2.5s ease;
 }
 
 .qmfooter-title::before {
@@ -199,8 +200,9 @@ body{
 
 .qmfooter-title.active::before,
 .qmfooter-title.active::after {
-    width: 170%; 
+    width: 170%;
 }
+
 //
 
 .title-orcamento {
@@ -208,7 +210,7 @@ body{
     display: inline-block;
     font-size: 46px;
     padding: 0 20px;
-    color: $letter-color; 
+    color: $letter-color;
     font-family: $font;
 }
 
@@ -217,10 +219,10 @@ body{
     content: '';
     position: absolute;
     top: 50%;
-    width:20%;
+    width: 20%;
     height: 2px;
     background-color: $letter-color;
-    transition: width 2.5s ease; 
+    transition: width 2.5s ease;
 }
 
 .title-orcamento::before {
@@ -235,7 +237,7 @@ body{
 
 .title-orcamento.active::before,
 .title-orcamento.active::after {
-    width: 50%; 
+    width: 50%;
 }
 
 //
@@ -357,19 +359,19 @@ body{
     text-shadow: 1px 1px 6px black;
 }
 
-.paragraph-orc{
+.paragraph-orc {
     color: $letter-color;
     font-size: 25px;
     text-shadow: 0px 1px 2px $letter-color;
 }
 
-.h-orc{
+.h-orc {
     color: $letter-color;
     font-size: 44px;
     text-shadow: 0px 1px 2px $letter-color;
 }
 
-.btn-orcamento-footer{
+.btn-orcamento-footer {
     margin-top: 190px;
 }
 
@@ -379,7 +381,7 @@ body{
     width: 500px;
     text-align: center;
 
-    .bi-map-fill{
+    .bi-map-fill {
         font-size: 200px;
         color: white;
     }
@@ -399,13 +401,13 @@ body{
         color: white;
     }
 
-    .title-card{
+    .title-card {
         color: white;
     }
 }
 
-.container-orcamento01{
-    height: 754px; 
+.container-orcamento01 {
+    height: 754px;
 }
 
 .title-orcamento {
@@ -423,7 +425,7 @@ body{
     align-items: center;
 }
 
-.container-002{
+.container-002 {
     width: 1650px;
 }
 
@@ -434,7 +436,7 @@ body{
     align-items: center;
 }
 
-.img-card{
+.img-card {
     width: 535px;
 }
 
@@ -526,7 +528,11 @@ body{
     width: 29%;
 }
 
-nav ul li,.link-mail,.link-tel,.link-facebook,.link-instagram{
+nav ul li,
+.link-mail,
+.link-tel,
+.link-facebook,
+.link-instagram {
     position: relative;
 }
 
@@ -536,7 +542,7 @@ nav ul li,.link-mail,.link-tel,.link-facebook,.link-instagram{
     bottom: -2px;
     width: 0;
     height: 2px;
-    background-color:#8a7034;
+    background-color: #8a7034;
     transition: width 0.4s ease;
 }
 
@@ -544,11 +550,11 @@ nav ul li:hover .underline {
     width: 100%;
 }
 
-.link-instagram:hover .underline{
+.link-instagram:hover .underline {
     width: 100%;
 }
 
-.link-facebook:hover .underline{
+.link-facebook:hover .underline {
     width: 100%;
 }
 
@@ -560,7 +566,11 @@ nav ul li:hover .underline {
     width: 100%;
 }
 
-nav ul li,.link-mail,.link-tel,.link-facebook,.link-instagram{
+nav ul li,
+.link-mail,
+.link-tel,
+.link-facebook,
+.link-instagram {
     position: relative;
 }
 
@@ -570,7 +580,7 @@ nav ul li,.link-mail,.link-tel,.link-facebook,.link-instagram{
     bottom: -2px;
     width: 0;
     height: 2px;
-    background-color:$letter-color;
+    background-color: $letter-color;
     transition: width 0.4s ease;
 }
 
@@ -578,11 +588,11 @@ nav ul li:hover .underline1 {
     width: 100%;
 }
 
-.link-instagram:hover .underline1{
+.link-instagram:hover .underline1 {
     width: 100%;
 }
 
-.link-facebook:hover .underline1{
+.link-facebook:hover .underline1 {
     width: 100%;
 }
 
@@ -597,14 +607,110 @@ nav ul li:hover .underline1 {
 
 
 
+@media(max-width:1366px) {
+    .nav-logo {
+        width: 193px;
+    }
 
+    .p1,
+    .p2 {
+        font-size: 40px;
+    }
 
+    .btn-orc-header {
+        font-size: 13px;
+        font-weight: 500;
+    }
 
+    .btn-orc-header:hover {
+        font-size: 12px;
+        font-weight: 400;
+    }
 
+    .firm-container {
+        margin-top: 680px;
+    }
 
+    .contain-present {
+        margin-top: 0px;
+    }
 
+    .btn-orc-presentation {
+        width: 300px;
+    }
 
+    .container-title-qm {
+        height: 75px;
+        margin-bottom: 0px;
+    }
 
+    .contain-present {
+        margin-bottom: 140px;
+    }
 
+    .qmfooter-title.active::before,
+    .qmfooter-title.active::after {
+        width: 100%;
+    }
 
+    .services-container00 {
+        margin-top: -311px;
+    }
 
+    .services-title.active::before,
+    .services-title.active::after {
+        width: 100%;
+    }
+
+    .services-container {
+        margin-top: 45px;
+    }
+
+    .card-container01 {
+        width: 300px;
+    }
+
+    .card-container {
+        width: 295px;
+    }
+
+    .bi-map-fill,
+    .bi-house-door-fill,
+    .bi-recycle,
+    .bi-buildings {
+        font-size: 120px;
+    }
+
+    .title-card {
+        font-size: 35px;
+    }
+
+    .paragraph-card {
+        font-size: 22px;
+    }
+
+    .mb-title-card {
+        margin-bottom: 30px;
+    }
+
+    .mb-title-card03 {
+        margin-bottom: 10px;
+    }
+
+    .card-container:hover {
+        width: 360px;
+    }
+
+    .title-orcamento.active::before, .title-orcamento.active::after {
+        width: 30%;
+    }
+
+    .container-002{
+        height: 500px;
+    }
+
+    .title-orcamento{
+        margin-top: 25px;
+    }
+
+}
