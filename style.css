@@ -665,5 +665,97 @@ nav ul li:hover .underline1 {
     margin-top: 25px;
   }
 }
+@media (max-width: 1360px) {
+  .nav-logo {
+    width: 193px;
+  }
+  .p1,
+  .p2 {
+    font-size: 40px;
+  }
+  .btn-orc-header {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .btn-orc-header:hover {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .firm-container {
+    margin-top: 580px;
+  }
+  .contain-present {
+    margin-top: 0px;
+  }
+  .btn-orc-presentation {
+    width: 300px;
+  }
+  .container-title-qm {
+    height: 75px;
+    margin-bottom: 0px;
+  }
+  .contain-present {
+    margin-bottom: 140px;
+  }
+  .qmfooter-title.active::before,
+  .qmfooter-title.active::after {
+    width: 100%;
+  }
+  .services-container00 {
+    margin-top: -311px;
+  }
+  .services-title.active::before,
+  .services-title.active::after {
+    width: 100%;
+  }
+  .services-container {
+    margin-top: 45px;
+  }
+  .card-container01 {
+    width: 300px;
+  }
+  .card-container {
+    width: 295px;
+  }
+  .bi-map-fill,
+  .bi-house-door-fill,
+  .bi-recycle,
+  .bi-buildings {
+    font-size: 120px;
+  }
+  .title-card {
+    font-size: 35px;
+  }
+  .paragraph-card {
+    font-size: 22px;
+  }
+  .mb-title-card {
+    margin-bottom: 30px;
+  }
+  .mb-title-card03 {
+    margin-bottom: 10px;
+  }
+  .card-container:hover {
+    width: 360px;
+  }
+  .title-orcamento.active::before, .title-orcamento.active::after {
+    width: 30%;
+  }
+  .container-002 {
+    height: 100px;
+  }
+  .container-orcamento00 {
+    height: 650px;
+  }
+  .title-orcamento {
+    margin-top: 25px;
+  }
+  .container-title-qm {
+    margin-top: -105px;
+  }
+  .services-container00 {
+    margin-top: -245px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
