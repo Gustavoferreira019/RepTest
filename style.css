@@ -630,22 +630,22 @@ nav ul li:hover .underline1 {
     margin-top: 45px;
   }
   .card-container01 {
-    width: 300px;
+    width: 370px;
   }
   .card-container {
-    width: 295px;
+    width: 350px;
   }
   .bi-map-fill,
   .bi-house-door-fill,
   .bi-recycle,
   .bi-buildings {
-    font-size: 120px;
+    font-size: 180px;
   }
   .title-card {
-    font-size: 35px;
+    font-size: 34px;
   }
   .paragraph-card {
-    font-size: 22px;
+    font-size: 21px;
   }
   .mb-title-card {
     margin-bottom: 30px;
@@ -718,16 +718,16 @@ nav ul li:hover .underline1 {
     margin-top: 45px;
   }
   .card-container01 {
-    width: 300px;
+    width: 370px;
   }
   .card-container {
-    width: 295px;
+    width: 350px;
   }
   .bi-map-fill,
   .bi-house-door-fill,
   .bi-recycle,
   .bi-buildings {
-    font-size: 120px;
+    font-size: 180px;
   }
   .title-card {
     font-size: 35px;
@@ -806,7 +806,7 @@ nav ul li:hover .underline1 {
     margin-top: 45px;
   }
   .card-container01 {
-    width: 300px;
+    width: 350px;
   }
   .card-container {
     width: 295px;
@@ -893,10 +893,10 @@ nav ul li:hover .underline1 {
     margin-top: 45px;
   }
   .card-container01 {
-    width: 300px;
+    width: 500px;
   }
   .card-container {
-    width: 295px;
+    width: 350px;
   }
   .bi-map-fill,
   .bi-house-door-fill,
@@ -1271,7 +1271,7 @@ nav ul li:hover .underline1 {
     font-weight: 700;
   }
   .firm-container {
-    margin-top: 800px;
+    margin-top: 805px;
     margin-bottom: -120px;
   }
   .title-firm {
@@ -1376,6 +1376,16 @@ nav ul li:hover .underline1 {
   }
   .img-card {
     width: 430px;
+  }
+}
+@media (max-width: 1400px) and (max-height: 1050px) {
+  .firm-container {
+    margin-top: 880px;
+  }
+}
+@media (max-width: 1360px) and (max-height: 768px) {
+  .firm-container {
+    margin-top: 580px;
   }
 }
 
