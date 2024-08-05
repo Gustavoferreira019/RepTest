@@ -34,3 +34,17 @@ window.addEventListener('scroll', handleScroll);
 
 handleScroll();
 
+document.addEventListener('DOMContentLoaded', function () {
+    const navItems = document.querySelectorAll('.navbar-nav .nav-link');
+    const toggleButton = document.getElementById('toggleButton');
+
+    navItems.forEach(item => {
+        item.addEventListener('click', function () {
+            // Verifica se o menu está aberto
+            if (document.querySelector('.navbar-collapse').classList.contains('show')) {
+                // Simula um clique no botão de toggle
+                toggleButton.click();
+            }
+        });
+    });
+});
