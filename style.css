@@ -1563,5 +1563,357 @@ nav ul li:hover .underline1 {
     margin-left: 10px;
   }
 }
+@media (max-width: 414px) {
+  .button-zap {
+    display: none;
+  }
+  .container-title-qm {
+    margin-bottom: 80px;
+  }
+  .container-orc {
+    margin-top: 1900px;
+  }
+  .box-img {
+    display: none;
+  }
+  .qmfooter-title::after,
+  .qmfooter-title::before {
+    display: inline;
+    width: 10%;
+  }
+  .qmfooter-title::before {
+    left: 80px;
+    transform: translateX(-100%);
+  }
+  .qmfooter-title::after {
+    right: 80px;
+    transform: translateX(100%);
+  }
+  .qmfooter-title.active::before,
+  .qmfooter-title.active::after {
+    width: 25%;
+  }
+  .services-title::after,
+  .services-title::before {
+    width: 11%;
+  }
+  .services-title::before {
+    left: 90px;
+    transform: translateX(-100%);
+  }
+  .services-title::after {
+    right: 90px;
+    transform: translateX(100%);
+  }
+  .services-title {
+    font-size: 52px;
+  }
+  .services-title.active::before,
+  .services-title.active::after {
+    width: 20%;
+  }
+  .title-orcamento::after,
+  .title-orcamento::before {
+    display: inline;
+    width: 10%;
+  }
+  .title-orcamento::before {
+    left: 80px;
+    transform: translateX(-115%);
+  }
+  .title-orcamento::after {
+    right: 80px;
+    transform: translateX(115%);
+  }
+  .title-orcamento.active::before,
+  .title-orcamento.active::after {
+    width: 18%;
+  }
+  .container-orcamento00 {
+    height: 455px;
+  }
+  .container-orcamento01 {
+    width: 350px;
+    height: 570px;
+  }
+  .container-footer {
+    margin-top: 293px;
+    height: 300px;
+  }
+  .container-redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .col-6 {
+    padding: 0;
+  }
+  .h-orc {
+    font-size: 20px;
+    text-align: center;
+  }
+  .paragraph-orc {
+    text-align: center;
+    font-size: 20px;
+  }
+  .btn-orcamento {
+    margin: 0;
+    font-size: 13px;
+    padding: 15px 5px;
+  }
+  .img-card {
+    width: 100px;
+  }
+  .link-instagram {
+    margin-left: 27px;
+  }
+  .card-container01 {
+    margin-bottom: 10px;
+  }
+  .p1 {
+    text-align: center;
+  }
+  .p2 {
+    text-align: center;
+  }
+  .btn-link {
+    width: 360px;
+    height: 60px;
+  }
+  .navbar-toggler {
+    background-color: #d1ba8e;
+    margin-right: 20px;
+  }
+  .navbar-collapse {
+    background-color: #d1ba8e;
+    border: 2px solid #654a14;
+    padding: 20px;
+  }
+  .navbar-collapse a button {
+    width: 310px;
+  }
+  .inicio-header,
+  .empresa-header,
+  .services-header,
+  .services-header,
+  .contato-header {
+    color: #654a14;
+  }
+  .navbar-toggler-icon {
+    display: inline-block;
+  }
+  .underline {
+    display: none;
+  }
+  .qmfooter-title {
+    margin-top: 25px;
+  }
+  .services-container00 {
+    margin-top: 41px;
+  }
+  .contain-present {
+    height: 630px;
+    width: 350px;
+    margin-bottom: -20px;
+    margin-left: 60px;
+    margin-right: -3px;
+    padding: 0;
+  }
+  .firm-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-firm {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .p-firm {
+    font-size: 16px;
+  }
+  .btn-orcamento00 {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 412px) {
+  .button-zap {
+    display: none;
+  }
+  .container-title-qm {
+    margin-bottom: 80px;
+  }
+  .container-orc {
+    margin-top: 1900px;
+  }
+  .box-img {
+    display: none;
+  }
+  .qmfooter-title::after,
+  .qmfooter-title::before {
+    display: inline;
+    width: 10%;
+  }
+  .qmfooter-title::before {
+    left: 80px;
+    transform: translateX(-100%);
+  }
+  .qmfooter-title::after {
+    right: 80px;
+    transform: translateX(100%);
+  }
+  .qmfooter-title.active::before,
+  .qmfooter-title.active::after {
+    width: 25%;
+  }
+  .services-title::after,
+  .services-title::before {
+    width: 11%;
+  }
+  .services-title::before {
+    left: 90px;
+    transform: translateX(-100%);
+  }
+  .services-title::after {
+    right: 90px;
+    transform: translateX(100%);
+  }
+  .services-title {
+    font-size: 52px;
+  }
+  .services-title.active::before,
+  .services-title.active::after {
+    width: 20%;
+  }
+  .title-orcamento::after,
+  .title-orcamento::before {
+    display: inline;
+    width: 10%;
+  }
+  .title-orcamento::before {
+    left: 80px;
+    transform: translateX(-115%);
+  }
+  .title-orcamento::after {
+    right: 80px;
+    transform: translateX(115%);
+  }
+  .title-orcamento.active::before,
+  .title-orcamento.active::after {
+    width: 18%;
+  }
+  .container-orcamento00 {
+    height: 455px;
+  }
+  .container-orcamento01 {
+    width: 348px;
+    height: 570px;
+  }
+  .container-footer {
+    margin-top: 293px;
+    height: 300px;
+  }
+  .container-redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .col-6 {
+    padding: 0;
+  }
+  .h-orc {
+    font-size: 20px;
+    text-align: center;
+  }
+  .paragraph-orc {
+    text-align: center;
+    font-size: 20px;
+  }
+  .btn-orcamento {
+    margin: 0;
+    font-size: 13px;
+    padding: 15px 5px;
+  }
+  .img-card {
+    width: 100px;
+  }
+  .link-instagram {
+    margin-left: 27px;
+  }
+  .card-container01 {
+    margin-bottom: 10px;
+  }
+  .p1 {
+    text-align: center;
+  }
+  .p2 {
+    text-align: center;
+  }
+  .btn-link {
+    width: 360px;
+    height: 60px;
+  }
+  .navbar-toggler {
+    background-color: #d1ba8e;
+    margin-right: 20px;
+  }
+  .navbar-collapse {
+    background-color: #d1ba8e;
+    border: 2px solid #654a14;
+    padding: 20px;
+  }
+  .navbar-collapse a button {
+    width: 310px;
+  }
+  .inicio-header,
+  .empresa-header,
+  .services-header,
+  .services-header,
+  .contato-header {
+    color: #654a14;
+  }
+  .navbar-toggler-icon {
+    display: inline-block;
+  }
+  .underline {
+    display: none;
+  }
+  .qmfooter-title {
+    margin-top: 25px;
+  }
+  .services-container00 {
+    margin-top: 41px;
+  }
+  .contain-present {
+    height: 625px;
+    width: 310px;
+    margin-bottom: -20px;
+    margin-left: 120px;
+    margin-right: 38px;
+    padding: 0;
+  }
+  .firm-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-firm {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+  }
+  .p-firm {
+    font-size: 16px;
+  }
+  .btn-orcamento00 {
+    margin-left: 10px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
