@@ -1396,7 +1396,7 @@ nav ul li:hover .underline1 {
     margin-bottom: 80px;
   }
   .container-orc {
-    margin-top: 1800px;
+    margin-top: 1900px;
   }
   .box-img {
     display: none;
@@ -1420,11 +1420,39 @@ nav ul li:hover .underline1 {
   }
   .services-title::after,
   .services-title::before {
-    display: none;
+    width: 11%;
+  }
+  .services-title::before {
+    left: 90px;
+    transform: translateX(-100%);
+  }
+  .services-title::after {
+    right: 90px;
+    transform: translateX(100%);
+  }
+  .services-title {
+    font-size: 52px;
+  }
+  .services-title.active::before,
+  .services-title.active::after {
+    width: 20%;
   }
   .title-orcamento::after,
   .title-orcamento::before {
-    display: none;
+    display: inline;
+    width: 10%;
+  }
+  .title-orcamento::before {
+    left: 80px;
+    transform: translateX(-115%);
+  }
+  .title-orcamento::after {
+    right: 80px;
+    transform: translateX(115%);
+  }
+  .title-orcamento.active::before,
+  .title-orcamento.active::after {
+    width: 18%;
   }
   .container-orcamento00 {
     height: 455px;
@@ -1511,8 +1539,28 @@ nav ul li:hover .underline1 {
     margin-top: 41px;
   }
   .contain-present {
-    height: 650px;
+    height: 630px;
+    width: 350px;
     margin-bottom: -20px;
+    margin-left: 50px;
+    padding: 0;
+  }
+  .firm-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-firm {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .p-firm {
+    font-size: 16px;
+  }
+  .btn-orcamento00 {
+    margin-left: 10px;
   }
 }
 
