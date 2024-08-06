@@ -1902,8 +1902,7 @@ nav ul li:hover .underline1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 960px;
-    background-color: black;
+    margin-top: 940px;
   }
   .title-firm {
     font-size: 36px;
