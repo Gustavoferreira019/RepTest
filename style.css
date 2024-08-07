@@ -1547,10 +1547,8 @@ nav ul li:hover .underline1 {
   }
   .firm-container {
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: black;
+    margin-top: 900px;
   }
   .title-firm {
     font-size: 40px;
