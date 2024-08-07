@@ -1560,6 +1560,9 @@ nav ul li:hover .underline1 {
   .btn-orcamento00 {
     margin-left: 10px;
   }
+  .container-home {
+    height: 100vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
