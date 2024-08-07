@@ -1659,7 +1659,7 @@ nav ul li:hover .underline1 {
 
 //Mobile
 
-@media(min-width:410px) and (max-width:430px) {
+@media(min-width:410px) and (max-width:430px) and (max-height:900px) {
 
     .button-zap {
         display: none;
@@ -1859,7 +1859,7 @@ nav ul li:hover .underline1 {
 
     .firm-container{
         text-align: center;
-        margin-top: 900px;
+        margin-top: 1000px;
     }
 
     .title-firm{
