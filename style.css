@@ -1539,11 +1539,12 @@ nav ul li:hover .underline1 {
     margin-top: 41px;
   }
   .contain-present {
-    height: 630px;
+    height: 500px;
     width: 350px;
     margin-bottom: -20px;
     margin-left: 50px;
     padding: 0;
+    margin-top: 100px;
   }
   .firm-container {
     text-align: center;
@@ -1561,7 +1562,7 @@ nav ul li:hover .underline1 {
     margin-left: 10px;
   }
   .container-home {
-    height: 100vh;
+    height: 900px;
   }
 }
 
