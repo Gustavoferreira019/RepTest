@@ -1394,6 +1394,7 @@ nav ul li:hover .underline1 {
   }
   .container-title-qm {
     margin-bottom: 0;
+    margin-top: 0;
   }
   .container-orc {
     margin-top: 1900px;
@@ -1548,7 +1549,7 @@ nav ul li:hover .underline1 {
   }
   .firm-container {
     text-align: center;
-    margin-top: 800px;
+    margin-top: 790px;
   }
   .title-firm {
     font-size: 40px;
